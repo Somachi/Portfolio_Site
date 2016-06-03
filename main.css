@@ -1,0 +1,186 @@
+
+/*Select elements by class name and add desired attributes such as height, width etc*/
+
+* { /*Make the borders to be red in colour*/
+	border: 1px solid white !important;
+
+}
+
+* {/*Make your page to display correctly on most browsers*/
+
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		box-sizing: border-box;
+}
+
+@media only screen and (max-width: 300px) {/*this code section is known as media query 
+	andd it used to change the CSS properties depending on the device, screen size and clolor*/
+	p {
+		background-color: blue;
+	}
+
+}
+
+.row-1 { /*This the top most row where the page title/heading and left top-most photo is located*/
+	width: 100%;
+	height: 140px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.row-2 {/*This is the top most row where the 4 left-most photo is located*/
+	width: 100%;
+	height: 550px;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.row-3 {/*This is the bottom section where the 7 fields(3 images and 4 texts) are located*/
+	width: 100%;
+	height: 510px;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.row-4 {/*This is the row responsible for the 3 bottom texts within the 3 text fields*/
+	position: relative;
+	width: 100%;
+	height: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	top: 20px;
+    text-align: center;
+	/*margin-top: 5cm;skip*/
+
+}
+
+.row-5 {/*This is the row responsible for the 3 bottom texts within the 3 text fields*/
+	position: relative;
+	width: 100%;
+	height: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	top: 1px;
+	/*margin-top: 5cm;skip*/
+
+}
+
+.col-1 {
+	width: 16.7%;
+	height: 109px;
+}
+
+.col-2 {
+	width: 83.3%;
+	text-align: right; /*this is used to align our text to the right, see html where it is used*/
+}
+
+.col-3 {
+	width: 16.66%;
+	height: 120px;
+}
+
+.col-4 {
+	width: 16.66%;
+	height: 120px;
+	position: relative; 
+	right:236px;/*when it increases it also goes to the left*/
+	top:130px;/*when it increases it also goes to the down*/
+}
+
+.col-5 {
+	position: relative; /* to modify the  col-10 column with properties, bottom,right and top ; okay */
+	width: 16.66%;
+	height: 120px;
+	right:472px;/*when it increases it also goes to the left*/
+	top:260px;/*when it increases it also goes to the down*/
+}
+
+.col-6 {
+	position: relative; /* to modify the  col-10 column with properties, bottom,right and top ; okay */
+	width: 16.66%;
+	height: 120px;
+	right:708px;/*when it increases it also goes to the left*/
+	top:400px;/*when it increases it also goes to the down*/
+}
+
+.col-7 {
+	position: relative; /* to modify the  col-10 column with properties, bottom,right and top ; okay */
+	width: 83.3%;
+	height: 548px;
+	left: 236px;
+	bottom: 119.9px;/* it goes up when its value is increased*/
+}
+
+
+.col-8 {
+
+	position: relative; /* to modify the  col-10 column with properties, bottom,right and top ; okay */
+	width: 40.66%;
+	height: 70px;
+	left:235px;/*when it increases it also goes to the left*/
+	top:10px;/*when it increases it also goes to the down*/
+	font-size: 250%;
+	font-family: "Times New Roman";
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+.col-9 {
+	position: relative; /* to modify the  col-10 column with properties, bottom,right and top ; okay */
+	width: 20.66%;
+	height: 250px;
+	right:300px;/*when it increases it also goes to the left*/
+	top:100px;/*when it increases it also goes to the down*/
+}
+
+.col-10 {
+	position: relative; /* to modify the  col-10 column with properties, bottom,right and top ; okay */
+	width: 20.66%;
+	height: 250px;
+	right:200px;/*when it increases it also goes to the left*/
+	top:100px;/*when it increases it also goes to the down*/
+}
+
+.col-11 {
+	position: relative; /* to modify the  col-10 column with properties, bottom,right and top ; okay */
+	width: 20.66%;
+	height: 250px;
+	left:1000px;/*when it increases it also goes to the left*/
+	bottom:155px;/*when it increases it also goes to the up*/
+}
+
+.col-12 {
+	position: relative; /* to modify the  col-10 column with properties, bottom,right and top ; okay */
+	width: 20.66%;
+	height: 120px;
+	right:18px;/*when it increases it also goes to the left*/
+	top:110px;/*when it increases it also goes to the down*/
+	font-size: 120%;
+	text-align: center;
+}
+
+.col-13 {
+	position: relative; /* to modify the  col-10 column with properties, bottom,right and top ; okay */
+	width: 20.66%;
+	height: 120px;
+	left:84px;/*when it increases it also goes to the right*/
+	top:110px;/*when it increases it also goes to the down*/
+	font-size: 120%;
+	text-align: center;
+}
+
+.col-14 {
+	position: relative; /* to modify the  col-10 column with properties, bottom,right and top ; okay */
+	width: 20.66%;
+	height: 120px;
+	left:123px;/*when it increases it also goes to the right*/
+	top:110px;/*when it increases it also goes to the down*/
+	font-size: 120%;
+	text-align: center;
+}
+
+
