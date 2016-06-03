@@ -5,59 +5,29 @@ This is my portfolio site
 
 
 
-This repository contains the BrightMovies.Com website source codes and how to get the website up and running on your web browser, see below for outlined step by step guide.  
+This repository contains my portfolio site source codes and how to get the website up and running on your web browser, see below for outlined step by step guide.  
 
 #File details:
 
-media.py- where we defined our classes and functions
+main.css  - which is our css file
 
-entertainment_center.py- where we imported the functions and classes in Media.py file to use in our website
-
-fresh_tomatoes.py - this file is reponsible for displaying our website on a web browser 
+test.html - which is our html file
 
     Note:
     Please make sure the file names are correct as stated here (all letters should be in lower cases)
     
 #Main Features 
 -	Open a webpage 
--	Display a list of Video images 
--	Display the name of the each video below its image
--	Play the video when the user clicks on the imgae
-
-
-#Libraries used:
-
-import webbrowser
-import webbrowser
-import os
-import re
-import time
-import fresh_tomatoes
-import media
-
-
-#Classes 
-class Movie():
-
-#Functions
-def show_trailer()
-def __init__()
-webbrowser.open()
-def create_movie_tiles_content()
-def open_movies_page()
 
 #To Run this codes
-1. Save all three files with the extention '.py' which makes it possible to run on a python IDL
-2. Make sure all three files are saved in the same folder on your computer
-3. Open up the file Entertainment_center.py and run the code, please make sure you are connected to the internet, and that      you have a browser on your computer
+1. Create a folder called 'portfolio' on your desktop computer
+1. Within the 'portfolio' folder create another folder called 'framework'
+2. Within the 'framework' save the test.html file 
+3. Within the 'framework' folder create another folder called 'css'
+4. In the 'css' folder save the 'main.css' file
+5. Open the 'test.html' file with your brower
 
 #License
-
-1. The ‘fresh_tomatoes.py’ file was originally authored and maintained by Udacity, but I modified it to suit the look of my    desired website. 
-
-
-2. 
-
 
 Copyright © 2016 Bright Nwanoruo 
 Redistribution and use in source and binary forms, with or without
