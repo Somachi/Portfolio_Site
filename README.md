@@ -1,4 +1,8 @@
 # Portfolio-Site
+![screen shot 2016-06-07 at 7 33 42 pm](https://cloud.githubusercontent.com/assets/13493736/15880064/1398fefe-2ce7-11e6-9bc8-1ec36e9cd8cb.png)
+![screen shot 2016-06-07 at 7 33 59 pm](https://cloud.githubusercontent.com/assets/13493736/15880070/181b187c-2ce7-11e6-9d63-bfd7e981b257.png)
+
+
 This is my portfolio site
 
 #Introduction
