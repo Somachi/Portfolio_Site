@@ -1,186 +1,202 @@
-
 /*Select elements by class name and add desired attributes such as height, width etc*/
+/* You can uncomment lines below to see how the columns and row are arranged*/
+/*{ /*Make the borders to be red in colour
+	border: 1px solid red !important;
 
-* { /*Make the borders to be red in colour*/
-	border: 1px solid white !important;
+}*/
 
+* {
+    /*Make your page to display correctly on most browsers*/
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
 }
-
-* {/*Make your page to display correctly on most browsers*/
-
-		-webkit-box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		-ms-box-sizing: border-box;
-		box-sizing: border-box;
+.row {
+    /*to make the coumns line next to each other and not stacking on each other*/
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: green;
 }
-
-@media only screen and (max-width: 300px) {/*this code section is known as media query 
-	andd it used to change the CSS properties depending on the device, screen size and clolor*/
-	p {
-		background-color: blue;
-	}
-
-}
-
-.row-1 { /*This the top most row where the page title/heading and left top-most photo is located*/
-	width: 100%;
-	height: 140px;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.row-2 {/*This is the top most row where the 4 left-most photo is located*/
-	width: 100%;
-	height: 550px;
-	display: flex;
-	flex-wrap: wrap;
-
-}
-
-.row-3 {/*This is the bottom section where the 7 fields(3 images and 4 texts) are located*/
-	width: 100%;
-	height: 510px;
-	display: flex;
-	flex-wrap: wrap;
-
-}
-.row-4 {/*This is the row responsible for the 3 bottom texts within the 3 text fields*/
-	position: relative;
-	width: 100%;
-	height: 30px;
-	display: flex;
-	flex-wrap: wrap;
-	top: 20px;
-    text-align: center;
-	/*margin-top: 5cm;skip*/
-
-}
-
-.row-5 {/*This is the row responsible for the 3 bottom texts within the 3 text fields*/
-	position: relative;
-	width: 100%;
-	height: 20px;
-	display: flex;
-	flex-wrap: wrap;
-	top: 1px;
-	/*margin-top: 5cm;skip*/
-
-}
-
-.col-1 {
-	width: 16.7%;
-	height: 109px;
-}
+/* Below is the code for column 2, which holds the web logo*/
 
 .col-2 {
-	width: 83.3%;
-	text-align: right; /*this is used to align our text to the right, see html where it is used*/
+    position: relative;
+    width: 14.66%;
+    top: 4px;
+    left: 0.50%;
+    height: 110px;
 }
+/* This is the weblogo style*/
+
+.webLogo {
+    width: 100%;
+    height: 100px;
+}
+/* This column hold the four images at the right hand side of the page*/
 
 .col-3 {
-	width: 16.66%;
-	height: 120px;
+    position: relative;
+    width: 25%;
+    left: 0.5%;
 }
+/*This the FImage, F stands for First*/
+
+.FImage {
+    width: 100%;
+    height: 130px;
+}
+/* This is the SImage, S stands for Second*/
+
+.SImage {
+    width: 100%;
+    height: 130px;
+}
+/* This is the TImage, T stands for Third*/
+
+.TImage {
+    width: 100%;
+    height: 130px;
+}
+/* This is the FHImage, FH stands for Fourth*/
+
+.FHImage {
+    width: 100%;
+    height: 130px;
+}
+/* his column hold the biggest image which at the center of the page*/
 
 .col-4 {
-	width: 16.66%;
-	height: 120px;
-	position: relative; 
-	right:236px;/*when it increases it also goes to the left*/
-	top:130px;/*when it increases it also goes to the down*/
+    position: relative;
+    width: 73.50%;
+    left: 1%;
 }
+/* This is the big_img*/
+
+.big_img {
+    width: 100%;
+    height: 533px;
+}
+/* his column hold a text */
 
 .col-5 {
-	position: relative; /* to modify the  col-10 column with properties, bottom,right and top ; okay */
-	width: 16.66%;
-	height: 120px;
-	right:472px;/*when it increases it also goes to the left*/
-	top:260px;/*when it increases it also goes to the down*/
+    position: relative;
+    /*width:41.66%;*/
+    
+    width: 30%;
+    left: 8%;
+    text-align: center;
 }
+/* This style hold a text */
+
+.fWorks {
+    font-size: 90%;
+}
+/*This column holds the two text at the extrem right hand side of the page*/
 
 .col-6 {
-	position: relative; /* to modify the  col-10 column with properties, bottom,right and top ; okay */
-	width: 16.66%;
-	height: 120px;
-	right:708px;/*when it increases it also goes to the left*/
-	top:400px;/*when it increases it also goes to the down*/
+    position: relative;
+    width: 40.33%;
+    left: 45%;
+    text-align: right;
 }
+/* This style holds a text */
+
+.name {
+    font-size: 180%;
+}
+/* This style holds a text */
+
+.subname {
+    font-size: 120%;
+}
+/* This column holds the three images at the bottom section of the page*/
 
 .col-7 {
-	position: relative; /* to modify the  col-10 column with properties, bottom,right and top ; okay */
-	width: 83.3%;
-	height: 548px;
-	left: 236px;
-	bottom: 119.9px;/* it goes up when its value is increased*/
+    position: relative;
+    width: 90%;
+    left: 8%;
 }
+/* This is Image-A style*/
 
+.Image-A {
+    width: 33%;
+    height: 350px;
+}
+/* This is Image-B style*/
+
+.Image-B {
+    width: 33%;
+    height: 350px;
+}
+/* This is Image-C style*/
+
+.Image-C {
+    width: 33%;
+    height: 350px;
+}
+/* This is the Text-A style*/
+
+.Text-A {
+    width: 100%;
+    font-size: 180%;
+}
+.link-text {
+    width: 100%;
+    font-size: 100%;
+}
+/* This is the Text-B style*/
+
+.Text-B {
+    width: 100%;
+    font-size: 180%;
+}
+/* This is the Text-C style*/
+
+.Text-C {
+    width: 100%;
+    font-size: 180%;
+}
+/* This column holds the text featured works' */
 
 .col-8 {
-
-	position: relative; /* to modify the  col-10 column with properties, bottom,right and top ; okay */
-	width: 40.66%;
-	height: 70px;
-	left:235px;/*when it increases it also goes to the left*/
-	top:10px;/*when it increases it also goes to the down*/
-	font-size: 250%;
-	font-family: "Times New Roman";
-	font-style: italic;
-	font-weight: bold;
+    position: relative;
+    width: 75%;
+    font-size: 300%;
+    left: 20%;
 }
-
-
-.col-9 {
-	position: relative; /* to modify the  col-10 column with properties, bottom,right and top ; okay */
-	width: 20.66%;
-	height: 250px;
-	right:300px;/*when it increases it also goes to the left*/
-	top:100px;/*when it increases it also goes to the down*/
+@media only screen and (max-width: 921px) {
+    /* Use media query 
+	to change the CSS properties depending on the device, screen size and clolor*/
+    
+    .row {
+        background-color: white;
+    }
+    .Image-A {
+        width: 32.50%;
+        height: 150px;
+    }
+    .Image-B {
+        width: 32.50%;
+        height: 150px;
+    }
+    .Image-C {
+        width: 32.50%;
+        height: 150px;
+    }
+    .Text-A {
+        font-size: 100%;
+    }
+    .link-text {
+        font-size: 40%;
+    }
+    .Text-B {
+        font-size: 100%;
+    }
+    .Text-C {
+        font-size: 100%;
+    }
 }
-
-.col-10 {
-	position: relative; /* to modify the  col-10 column with properties, bottom,right and top ; okay */
-	width: 20.66%;
-	height: 250px;
-	right:200px;/*when it increases it also goes to the left*/
-	top:100px;/*when it increases it also goes to the down*/
-}
-
-.col-11 {
-	position: relative; /* to modify the  col-10 column with properties, bottom,right and top ; okay */
-	width: 20.66%;
-	height: 250px;
-	left:1000px;/*when it increases it also goes to the left*/
-	bottom:155px;/*when it increases it also goes to the up*/
-}
-
-.col-12 {
-	position: relative; /* to modify the  col-10 column with properties, bottom,right and top ; okay */
-	width: 20.66%;
-	height: 120px;
-	right:18px;/*when it increases it also goes to the left*/
-	top:110px;/*when it increases it also goes to the down*/
-	font-size: 120%;
-	text-align: center;
-}
-
-.col-13 {
-	position: relative; /* to modify the  col-10 column with properties, bottom,right and top ; okay */
-	width: 20.66%;
-	height: 120px;
-	left:84px;/*when it increases it also goes to the right*/
-	top:110px;/*when it increases it also goes to the down*/
-	font-size: 120%;
-	text-align: center;
-}
-
-.col-14 {
-	position: relative; /* to modify the  col-10 column with properties, bottom,right and top ; okay */
-	width: 20.66%;
-	height: 120px;
-	left:123px;/*when it increases it also goes to the right*/
-	top:110px;/*when it increases it also goes to the down*/
-	font-size: 120%;
-	text-align: center;
-}
-
-
