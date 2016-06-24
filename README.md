@@ -1,6 +1,7 @@
 # Portfolio-Site
-![screen shot 2016-06-07 at 7 33 42 pm](https://cloud.githubusercontent.com/assets/13493736/15880064/1398fefe-2ce7-11e6-9bc8-1ec36e9cd8cb.png)
-![screen shot 2016-06-07 at 7 33 59 pm](https://cloud.githubusercontent.com/assets/13493736/15880070/181b187c-2ce7-11e6-9d63-bfd7e981b257.png)
+
+![a-shot](https://cloud.githubusercontent.com/assets/13493736/16348391/7bd76dfe-3a0f-11e6-9165-dde9fdbce19b.png)
+![b-shot](https://cloud.githubusercontent.com/assets/13493736/16348394/809b8cb2-3a0f-11e6-8606-cef06d72b1a7.png)
 
 
 This is my portfolio site
