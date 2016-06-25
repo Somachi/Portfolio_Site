@@ -10,13 +10,13 @@ This is my portfolio site
 
 
 
-This repository contains my portfolio site source codes and how to get the website up and running on your web browser, see below for outlined step by step guide.  
+This repository contains my portfolio site source codes as well as other files, and how to get the website up and running on your web browser, see below for outlined step by step guide.  
 
 #File details:
 
 main.css  - which is our css file
 
-test.html - which is our html file
+index.html - which is our html file
 
     Note:
     Please make sure the file names are correct as stated here (all letters should be in lower cases)
@@ -27,10 +27,12 @@ test.html - which is our html file
 #To Run this codes
 1. Create a folder called 'portfolio' on your desktop computer
 1. Within the 'portfolio' folder create another folder called 'framework'
-2. Within the 'framework' save the test.html file 
+2. Within the 'framework' save the index.html file 
 3. Within the 'framework' folder create another folder called 'css'
 4. In the 'css' folder save the 'main.css' file
-5. Open the 'test.html' file with your brower
+5. Within the 'framework' folder create another folder called 'images'
+6. Dowload the image files from the images folder (on this my Portfolio-Site repository) and save them in this 'images'         folder
+5. Open the 'index.html' file with your brower
 
 #License
 
