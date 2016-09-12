@@ -1,7 +1,10 @@
 # Portfolio-Site
 
-![a-shot](https://cloud.githubusercontent.com/assets/13493736/16348391/7bd76dfe-3a0f-11e6-9165-dde9fdbce19b.png)
-![b-shot](https://cloud.githubusercontent.com/assets/13493736/16348394/809b8cb2-3a0f-11e6-8606-cef06d72b1a7.png)
+![imagea](https://cloud.githubusercontent.com/assets/13493736/18425058/303d0fdc-7873-11e6-80e2-12d0d235575e.png)
+![imageb](https://cloud.githubusercontent.com/assets/13493736/18424992/9593ada6-7872-11e6-89af-032c7933c070.png)
+![imagec](https://cloud.githubusercontent.com/assets/13493736/18424995/9e851314-7872-11e6-9728-ca845d648664.png)
+![imaged](https://cloud.githubusercontent.com/assets/13493736/18424998/a4166d64-7872-11e6-9f54-112f086fdd8d.png)
+![imagee](https://cloud.githubusercontent.com/assets/13493736/18425000/a74ca688-7872-11e6-99db-b47a4b10fe35.png)
 
 
 This is my portfolio site
