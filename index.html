@@ -1,91 +1,104 @@
 <!DOCTYPE HTML>
 <!-- This tells the browser that the type of document is a html document -->
 <html>
+<main>
 
-<head>
-	<!-- add a meta viewport to make the site fit viewport available to it -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <title>Framework Test page</title>
+    <head>
+        <!-- add a meta viewport to make the site fit viewport available to it -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Framework Test page</title>
 
-    <!-- Add a link to the style file -->
-    <link href="css/main.css" rel="stylesheet" type="text/css">
+        <!-- Add a link to the style file -->
+        <link href="css/main.css" rel="stylesheet">
 
-    <!-- This will help ensure that your css files are interpreted the same across all browsers -->
-    <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css">
-</head>
+        <!-- This will help ensure that your css files are interpreted the same across all browsers -->
+        <link rel="stylesheet" href="//normalize-css.googlecode.com/svn/trunk/normalize.css">
+    </head>
 
-<body>
-    <!-- Create your boxes using div tags -->
-    <!-- Create a grid in which we are going to design our page-->
-    <div class="grid">
-        <div class="row">
-            <!-- This column hold the logo at the top left hand of the page-->
-            <div class="col-2">
-                <!-- This the logo image at the top left hand side of the page-->
-                <img class="webLogo" src="images/image1.jpeg">
+    <body>
+        <!-- Create your boxes using div tags -->
+        <!-- Create a grid in which we are going to design our page-->
+        <div class="grid">
+            <div class="row">
+                <!-- This column hold the logo at the top left hand of the page-->
+                <div class="col-2">
+
+                    <!-- This the logo image at the top left hand side of the page-->
+                    <img class="webLogo" src="images/image1.jpeg" alt="Website logo">
+
+                </div>
+                <!-- This column holds the two text at the extrem right hand side of the page-->
+                <div class="col-6">
+                    <div class="name">Bright Nwanoruo</div>
+                    <div class="subname">Learned</div>
+                </div>
+
             </div>
-            <!-- This column holds the two text at the extrem right hand side of the page-->
-            <div class="col-6">
-                <div class="name">Bright Nwanoruo</div>
-                <div class="subname">Learned</div>
+
+            <div class="row">
+                <article>
+                    <header>
+                        <h3>What is CSS and HTML?</h3>
+                        <p>CSS and HTML definition:</p>
+                    </header>
+                    <p>CSS stands for Cascading Style Sheets. CSS controls how HTML elements are to be displayed on a web page. CSS saves a lot of work. It can control the layout of multiple web pages all at once. HTML stands for Hypertext Markup Language which is a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.</p>
+                </article>
+
+
+                <!-- This column holds the first four images on the page-->
+                <div class="col-3">
+                    <img class="FImage" src="images/image2.jpeg" alt="Css image">
+                    <img class="SImage" src="images/image3.jpeg" alt="Css image">
+                    <img class="TImage" src="images/image4.jpeg" alt="CSS and HTML image">
+                    <img class="FHImage" src="images/image5.jpeg" alt="HTML and CSS image">
+                </div>
+                <!-- This column holds the biggest image on the page-->
+                <div class="col-4">
+                    <img class="big_img" src="images/big_image.jpeg" alt="Programming languages image">
+                </div>
             </div>
+            <!-- This row holds the bottom section of the page-->
+            <div class="row">
+
+                <!-- This column holds the text featured works' -->
+                <div class="col-8">
+                    <div class="fWorks"> Featured Works</div>
+                </div>
+                <p class="fWorks-explain"> Below are the extensive works of mine. The works are where I displayed my high extensive programming skills.
+                </p>
+                <!--This column holds the three images and some texts at the bottom section of the page -->
+                <div class="col-7">
+
+                    <img class="Image-A" src="images/image6.jpeg" alt="CSS and HTML image">
+                    <div class="Text-A">Movie Site</div>
+                    <div class="link-textA">https://github.com/Somachi</div>
+                    <img class="Image-B" src="images/image7.jpeg" alt="CSS image">
+                    <div class="Text-B">HTML / CSS</div>
+                    <div class="link-textB">https://github.com/Somachi</div>
+                    <img class="Image-C" src="images/image8.jpeg" alt="CSS image">
+                    <div class="Text-C">Others</div>
+                    <div class="link-textC">https://github.com/Somachi</div>
+                </div>
+
+                <!-- The footer holds a paragraph -->
+                <footer>
+                    <p>Posted by: Bright Nwanoruo</p>
+                    <p>Contact information: <a href="mailto:someone@example.com">
+                    bvnwanoruo@outlook.com</a>.</p>
+                </footer>
+
+
+
+
+            </div>
+
+
+
 
         </div>
 
-        <div class="row">
-            <!-- This column hold the four images at the right hand side of the page-->
-            <div class="col-3">
-                <img class="FImage" src="images/image2.jpeg">
-                <img class="SImage" src="images/image3.jpeg">
-                <img class="TImage" src="images/image4.jpeg">
-                <img class="FHImage" src="images/image5.jpeg">
-            </div>
-            <!-- This column hold the biggest image which at the center of the page-->
-            <div class="col-4">
-                <img class="big_img" src="images/big_image.jpeg">
-            </div>
-        </div>
-        <!-- This row holds the bottom section of the page-->
-        <div class="row">
-            <!-- This column holds the text featured works' -->
-            <div class="col-8">
-                <div class="fWorks"> Featured Works</div>
-            </div>
-            <!--This column holds the three images at the bottom section of the page -->
-            <div class="col-7">
-
-                <img class="Image-A" src="images/image6.jpeg">
-                <img class="Image-B" src="images/image7.jpeg">
-                <img class="Image-C" src="images/image8.jpeg">
-            </div>
-            <!-- This column hold a text -->
-            <div class="col-5">
-                <div class="Text-A">Movie Site</div>
-                <div class="link-text">https://github.com/Somachi</div>
-            </div>
-            <!-- This column hold a text -->
-            <div class="col-5">
-                <div class="Text-B">HTML/CSS</div>
-                <div class="link-text">https://github.com/Somachi</div>
-            </div>
-            <!-- This column hold a text -->
-            <div class="col-5">
-                <div class="Text-C">Others</div>
-                <div class="link-text">https://github.com/Somachi</div>
-
-            </div>
-
-
-
-
-        </div>
-
-
-
-
-    </div>
-
-</body>
+    </body>
+</main>
 
 </html>
