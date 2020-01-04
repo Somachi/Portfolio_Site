@@ -40,7 +40,7 @@ index.html - which is our html file
 6. Dowload the image files from the images folder (on this my Portfolio-Site repository) and save them in this 'images'         folder
 5. Open the 'index.html' file with your brower
 
-#License
+# License
 
 Copyright © 2016 Bright Nwanoruo 
 Redistribution and use in source and binary forms, with or without
