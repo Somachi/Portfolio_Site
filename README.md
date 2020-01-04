@@ -12,13 +12,13 @@ With a responsive layout
 
 This is my portfolio site
 
-#Introduction
+# Introduction
 
 
 
 This repository contains my portfolio site source codes as well as other files, and how to get the website up and running on your web browser, see below for outlined step by step guide.  
 
-#File details:
+# File details:
 
 main.css  - which is our css file
 
@@ -27,10 +27,10 @@ index.html - which is our html file
     Note:
     Please make sure the file names are correct as stated here (all letters should be in lower cases)
     
-#Main Features 
+# Main Features 
 -	Open a webpage 
 
-#To Run this codes
+# To Run this codes
 1. Create a folder called 'portfolio' on your desktop computer
 1. Within the 'portfolio' folder create another folder called 'framework'
 2. Within the 'framework' save the index.html file 
